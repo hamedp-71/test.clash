@@ -46,2261 +46,407 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: defaultName_1
-    port: 2095
-    server: 185.146.173.185
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
-  - name: defaultName_2
-    port: 80
-    server: 162.19.228.119
-    type: vless
-    network: ws
-    udp: true
-    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  - name: defaultName_3
-    port: 8880
-    server: "2a06:98c1:3123::"
-    type: vless
-    network: ws
-    udp: true
-    uuid: Bos
-  - name: defaultName_4
+  - name: 🇺🇸_1
     port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
+    server: "[2a05:f480:2000:1384:5400:5ff:fe19:8b0a]"
+    type: hysteria2
     udp: true
-    servername: cpanel3.sassanidempire.com
+    obfs: salamander
+    password: 18240b2dfdd76484
     skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-    client-fingerprint: chrome
-  - name: defaultName_5
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
+    obfs-password: d2648ec2
+  - name: 🇦🇹_1
+    port: 30103
+    server: 152.53.54.139
+    type: hysteria2
     udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_6
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_7
-    port: 2096
-    server: 147.45.51.16
-    type: vless
-    network: grpc
-    udp: true
-    servername: dash.cloudflare.com
+    sni: 35afq4514.surfcat.store
+    password: 91aa5eb5-e257-4885-a591-8ba742c4fcd2
     skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: c3R5_lORnQd1X3A2E0ulHJn396G2X_ZYIs66ldEVQWI
-      short-id: 28f58957
-    uuid: 16747acc-95c8-44ba-9b66-3d8a0c035347
-    client-fingerprint: firefox
-  - name: defaultName_8
+  - name: 🇦🇹_2
+    port: 30103
+    server: 152.53.54.139
+    type: hysteria2
+    udp: true
+    sni: 35afq4514.surfcat.store
+    password: 91aa5eb5-e257-4885-a591-8ba742c4fcd2
+    skip-cert-verify: true
+  - name: 🇺🇸_2
     port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:1000:18b3:5400:5ff:fe19:3f6d]"
+    type: hysteria2
     udp: true
-    servername: cpanel3.sassanidempire.com
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-  - name: defaultName_9
-    port: 2060
-    server: 185.247.184.147
-    type: vless
-    network: grpc
+    obfs-password: cd29099d
+  - name: 🇦🇹_3
+    port: 30103
+    server: 152.53.54.139
+    type: hysteria2
     udp: true
-    servername: dash.cloudflare.com
+    sni: 35afq4514.surfcat.store
+    password: 91aa5eb5-e257-4885-a591-8ba742c4fcd2
     skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
-      short-id: f77e5398
-    alpn:
-      - h2,http/1.1
-    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
-    client-fingerprint: chrome
-  - name: defaultName_10
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_11
-    port: 2052
-    server: 104.17.148.22
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2052
-      headers:
-        host: www.speedtest.net.B.5.dnschecker.Tech.
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_12
+  - name: 🇺🇸_3
     port: 443
-    server: 151.101.2.133
-    type: vless
-    network: ws
-    tls: true
+    server: 207.148.22.93
+    type: hysteria2
     udp: true
-    servername: mio.splashthat.com
+    sni: 207.148.22.93
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
-      headers:
-        host: barkatc2.ir
-    uuid: ea52c459-86ac-4707-8062-564ca031ae43
-  - name: defaultName_13
+    obfs-password: cd29099d
+  - name: 🇺🇸_4
     port: 443
-    server: 146.75.118.133
-    type: vless
-    network: ws
-    tls: true
+    server: 207.148.22.93
+    type: hysteria2
     udp: true
-    servername: live.989bull.com
+    sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    ws-opts:
-      path: /@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443
-      headers:
-        host: Savteam.CI
-    alpn:
-      - http/1.1
-    uuid: SAVTEAM14
-    client-fingerprint: chrome
-  - name: defaultName_14
+    obfs-password: cd29099d
+  - name: 🇺🇸_5
     port: 443
-    server: 89.187.169.71
-    type: vless
-    network: tcp
-    tls: true
+    server: 207.148.22.93
+    type: hysteria2
     udp: true
-    servername: www.cloudflare.com
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    reality-opts:
-      public-key: B5i03yc1WUTOQD8v_N0UrCUaR4AgMJ40rEl8tXUJY0g
-      short-id: 01b200e90e250221
-    uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_15
+    obfs-password: cd29099d
+  - name: 🇺🇸_6
     port: 443
-    server: 151.101.130.228
-    type: vless
-    network: ws
-    tls: true
+    server: 207.148.22.93
+    type: hysteria2
     udp: true
-    servername: hajlab.ucdavis.edu
+    sni: vkvd127.mycdn.me
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    ws-opts:
-      path: "@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--\
-        @Maznet--@MAZNET?ed=2560"
-      headers:
-        host: loye.ir
-    uuid: dac2e369-da14-496a-87ce-eee67acfdecf
-  - name: defaultName_16
+    obfs-password: cd29099d
+  - name: 🇦🇹_4
+    port: 30103
+    server: 152.53.54.139
+    type: hysteria2
+    udp: true
+    sni: 35afq4514.surfcat.store
+    password: 91aa5eb5-e257-4885-a591-8ba742c4fcd2
+    skip-cert-verify: true
+  - name: 🇺🇸_7
     port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
+    server: 45.76.0.86
+    type: hysteria2
     udp: true
-    servername: cpanel3.sassanidempire.com
+    sni: vkvd127.mycdn.me
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-    client-fingerprint: chrome
-  - name: defaultName_17
-    port: 38971
-    server: 2a01:4f8:c17:1cd7::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: TELEGRAM-ServerNett
-  - name: defaultName_18
-    port: 35321
-    server: 2a01:4f9:c011:337b::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: d5cad95d-821d-4557-a758-6a985b85a08c
-  - name: defaultName_19
-    port: 8880
-    server: "2a06:98c1:3123::"
-    type: vless
-    network: ws
-    udp: true
-    uuid: Bos
-  - name: defaultName_20
-    port: 80
-    server: 151.101.128.155
-    type: vless
-    network: ws
-    udp: true
-    uuid: 43e585a6-4369-4502-c459-ac933f70c495
-  - name: defaultName_21
+    obfs-password: 4b817757
+  - name: 🇺🇸_8
     port: 443
-    server: 2a05:541:124:19::1
-    type: vless
-    network: tcp
-    tls: true
+    server: 45.76.0.86
+    type: hysteria2
     udp: true
-    uuid: v2rayng__76
-  - name: defaultName_22
-    port: 33000
-    server: 2a0b:4140:659a:6::6
-    type: vless
-    network: grpc
-    udp: true
-    servername: www.speedtest.net
+    sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0
-      short-id: be7f13dd
-    uuid: b106570b-6b5f-40c1-8081-03093fbe8fa5
-    client-fingerprint: chrome
-  - name: defaultName_23
+    obfs-password: 4b817757
+  - name: 🇺🇸_9
     port: 443
-    server: "2a06:98c1:3123::"
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:5:34a0:5400:5ff:fe19:3f6f]"
+    type: hysteria2
     udp: true
-    servername: st-pl-1.brocdn.com
+    sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-pl-1.brocdn.com
-    uuid: dd563276-d5f9-11ee-aaa8-00505603e70d
-  - name: defaultName_24
+    obfs-password: 4b817757
+  - name: 🇺🇸_10
     port: 443
-    server: 2a04:4e42:7d::740
-    type: vless
-    network: ws
-    tls: true
+    server: 45.76.0.86
+    type: hysteria2
     udp: true
-    servername: zmaoz.faculty.ucdavis.edu
+    sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: gisheh7.ir
-    uuid: tel--ZEDMODEON
-  - name: defaultName_25
+    obfs-password: 4b817757
+  - name: 🇺🇸_11
     port: 443
-    server: 2a04:4e42:7d::740
-    type: vless
-    network: ws
-    tls: true
+    server: 45.76.0.86
+    type: hysteria2
     udp: true
-    servername: zmaoz.faculty.ucdavis.edu
+    sni: vkvd127.mycdn.me
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: snappshop.ir
-    uuid: tel--ZEDMODEON
-    client-fingerprint: chrome
-  - name: defaultName_26
+    obfs-password: 4b817757
+  - name: 🇺🇸_12
     port: 443
-    server: 2a04:4e42:7d::645
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:5:34a0:5400:5ff:fe19:3f6f]"
+    type: hysteria2
     udp: true
-    servername: ergwork.web.unc.edu
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: snapp.taxi
-    uuid: Join--ZEDMODEON
-  - name: defaultName_27
+    obfs-password: 4b817757
+  - name: 🇺🇸_13
     port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
+    server: 45.76.0.86
+    type: hysteria2
     udp: true
-    servername: st-fr-1.brocdn.com
+    sni: 45.76.0.86
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: e2b0ddf8-dcbc-11ee-b67b-00505603e70d
-  - name: defaultName_28
+    obfs-password: 4b817757
+  - name: 🇺🇸_14
     port: 443
-    server: 2a04:4e42:7d::645
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:5:34a0:5400:5ff:fe19:3f6f]"
+    type: hysteria2
     udp: true
-    servername: ergwork.web.unc.edu
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: snapp.taxi
-    uuid: Join--ZEDMODEON
-  - name: defaultName_29
+    obfs-password: 4b817757
+  - name: 🇺🇸_15
     port: 443
-    server: 2a04:4e42:400::645
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:1000:18b3:5400:5ff:fe19:3f6d]"
+    type: hysteria2
     udp: true
-    servername: connectcarolina.sites.unc.edu
+    sni: 2001:19f0:1000:18b3:5400:5ff:fe19:3f6d
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: tapsi.shop
-    uuid: tel--ZEDMODEON
-  - name: defaultName_30
-    port: 2060
-    server: 185.247.184.147
-    type: vless
-    network: grpc
+    obfs-password: cd29099d
+  - name: 🇦🇹_5
+    port: 30103
+    server: 152.53.54.139
+    type: hysteria2
     udp: true
-    servername: dash.cloudflare.com
+    sni: 35afq4514.surfcat.store
+    password: 91aa5eb5-e257-4885-a591-8ba742c4fcd2
     skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
-      short-id: f77e5398
-    alpn:
-      - h2,http/1.1
-    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
-    client-fingerprint: chrome
-  - name: defaultName_31
-    port: 2053
-    server: 40.160.11.136
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: test.mrkian.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /Gcore.com?ed=443
-    uuid: 0e921714-b28c-4ffd-a371-eb486bc5a1ce
-  - name: defaultName_32
-    port: 4009
-    server: 185.119.240.34
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_33
-    port: 8443
-    server: 20.151.63.165
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_34
+  - name: 🇺🇸 _1
     port: 443
-    server: 151.101.130.228
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:1000:18b3:5400:5ff:fe19:3f6d]"
+    type: hysteria2
     udp: true
-    servername: hajlab.ucdavis.edu
+    sni: "[2001:19f0:1000:18b3:5400:5ff:fe19:3f6d]"
+    obfs: salamander
+    password: 9bb452b106ffc217
     skip-cert-verify: true
-    ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-      headers:
-        host: joinshhproxybedeeeee.ir
-    uuid: f65869de-5d70-4267-ac2b-87a278d0c8be
-  - name: defaultName_35
-    port: 80
-    server: 151.101.194.219
-    type: vless
-    network: ws
-    udp: true
-    uuid: b44d981a-0ecb-43db-8eb6-2f7001aeb2d4
-  - name: defaultName_36
-    port: 4009
-    server: 185.119.240.240
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_37
-    port: 8080
-    server: 104.18.23.19
-    type: vless
-    network: ws
-    udp: true
-    uuid: 520061ab-e8e3-4325-9272-8e3583094964
-  - name: defaultName_38
+    obfs-password: cd29099d
+  - name: 🇺🇸 _2
     port: 443
-    server: 104.26.10.137
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:5:34a0:5400:5ff:fe19:3f6f]"
+    type: hysteria2
     udp: true
-    servername: st-fr-1.brocdn.com
+    obfs: salamander
+    password: 1f17cdf0578a2860
     skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
-  - name: defaultName_39
-    port: 4001
-    server: 89.47.197.123
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 93c02d6d-e210-43bb-90ee-91784b889d0e
-  - name: defaultName_40
-    port: 8080
-    server: 172.67.69.236
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: 3cff1332-9020-4a58-8dbf-3ff31bd271a4
-  - name: defaultName_41
-    port: 80
-    server: 162.19.228.119
-    type: vless
-    network: ws
-    udp: true
-    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  - name: defaultName_42
-    port: 1620
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_43
-    port: 1616
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_44
-    port: 45948
-    server: 49.12.232.18
-    type: vless
-    network: tcp
-    udp: true
-    servername: microsoft.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 6uXONnLC5qft2TiBpMDRcBLVE8C0_gNlDCf00r0U_QI
-      short-id: e9db424f
-    uuid: a1f048d5-55eb-4f1b-99ff-8b6d4fa38512
-    flow: xtls-rprx-vision
-    client-fingerprint: firefox
-  - name: defaultName_45
-    port: 2095
-    server: 185.146.173.185
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
-  - name: defaultName_46
-    port: 46951
-    server: 49.12.232.18
-    type: vless
-    network: grpc
-    udp: true
-    servername: microsoft.com
-    skip-cert-verify: true
-    grpc-opts: {}
-    reality-opts:
-      public-key: rQYwLzPwYJblfCzt58-6YXpWgPYauFACkMNsFc_4A3c
-      short-id: ffd6166f
-    uuid: 92ff8e9c-cd7c-4e44-bdf5-734b3153a096
-    client-fingerprint: firefox
-  - name: defaultName_47
-    port: 4009
-    server: 185.119.240.34
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_48
-    port: 8080
-    server: 104.18.23.19
-    type: vless
-    network: ws
-    udp: true
-    uuid: 520061ab-e8e3-4325-9272-8e3583094964
-  - name: defaultName_49
+    obfs-password: 4b817757
+  - name: 🇸🇪
     port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
+    server: 70.34.207.153
+    type: hysteria2
     udp: true
-    servername: cpanel3.sassanidempire.com
+    sni: 70.34.207.153
+    obfs: salamander
+    password: 18240b2dfdd76484
     skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-  - name: defaultName_50
-    port: 8443
-    server: 20.151.63.165
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_51
-    port: 80
-    server: 92.38.145.145
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: 3e91d67b-44c8-40bd-9479-748f85e3f20c
-  - name: defaultName_52
-    port: 17534
-    server: 1.168.172.13
-    type: vless
-    network: tcp
-    udp: true
-    servername: icloud.cdn-apple.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc
-    uuid: 8392b0ac-b196-4529-ea35-b9111eed41c5
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_53
+    obfs-password: d2648ec2
+  - name: 🇺🇸 _3
     port: 443
-    server: 172.67.73.241
-    type: vless
-    network: ws
-    tls: true
+    server: "[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]"
+    type: hysteria2
     udp: true
-    servername: st-fr-1.brocdn.com
+    sni: "[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]"
+    obfs: salamander
+    password: 4e9ee29b39a28277
     skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
-  - name: defaultName_54
-    port: 4009
-    server: 185.119.240.240
-    type: vless
-    network: tcp
-    udp: true
-    uuid: c97861ff-0b79-44df-9019-6f8b5dd796ee
-  - name: defaultName_55
-    port: 8888
-    server: 2a01:4f8:1c1b:26eb::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: Parsashonam-116
-  - name: defaultName_56
-    port: 80
-    server: arv2ry.fastly80.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_57
-    port: 8443
-    server: 137.116.91.147
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_58
-    port: 8443
-    server: 20.228.249.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_59
-    port: 8443
-    server: 4.239.248.70
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_60
-    port: 8443
-    server: 40.123.47.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_61
-    port: 2053
-    server: 20.228.249.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_62
-    port: 443
-    server: 4.152.146.92
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_63
-    port: 8443
-    server: 40.123.41.147
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_64
-    port: 8443
-    server: 20.151.60.161
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_65
-    port: 8443
-    server: 4.172.225.98
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_66
-    port: 8443
-    server: 40.123.47.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_67
-    port: 8443
-    server: 20.228.249.211
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_68
-    port: 443
-    server: 20.246.127.166
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_69
-    port: 8443
-    server: 4.172.225.82
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_70
-    port: 8443
-    server: 20.151.90.208
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_71
-    port: 8443
-    server: 40.123.47.225
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_72
-    port: 8443
-    server: 20.151.238.192
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_73
-    port: 8443
-    server: 20.151.60.161
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_74
-    port: 443
-    server: 20.221.32.145
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_75
-    port: 8443
-    server: 4.172.225.82
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_76
-    port: 8443
-    server: 4.172.225.98
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_77
-    port: 8443
-    server: 4.172.225.82
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_78
-    port: 8443
-    server: 40.123.47.252
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_79
-    port: 8443
-    server: 20.151.90.208
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_80
-    port: 443
-    server: 20.74.223.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_81
-    port: 8443
-    server: 20.151.60.161
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_82
-    port: 8443
-    server: 20.151.238.192
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_83
-    port: 8443
-    server: 4.248.47.209
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_84
-    port: 8443
-    server: 4.248.47.209
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_85
-    port: 8443
-    server: 4.248.47.209
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_86
-    port: 443
-    server: 20.221.32.145
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_87
-    port: 443
-    server: 104.18.42.19
-    type: vless
-    network: httpupgrade
-    tls: true
-    udp: true
-    servername: hdfy5persiaserverc1.afsharidempire.uk
-    skip-cert-verify: true
-    alpn:
-      - http/1.1
-    uuid: 251780c1-1501-43b3-be2a-d144a20d479a
-    client-fingerprint: chrome
-  - name: defaultName_88
-    port: 4001
-    server: 89.47.197.123
-    type: vless
-    network: tcp
-    udp: true
-    uuid: 93c02d6d-e210-43bb-90ee-91784b889d0e
-  - name: defaultName_89
-    port: 8080
-    server: 104.18.22.19
-    type: vless
-    network: ws
-    udp: true
-    uuid: 520061ab-e8e3-4325-9272-8e3583094964
-  - name: defaultName_90
-    port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    alpn:
-      - http/1.1
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-  - name: defaultName_91
-    port: 443
-    server: 172.66.46.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: speedtest1.svgspeedtest.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy
-      headers:
-        host: speedtest1.svgspeedtest.net
-    uuid: 5104ca9f-1927-44ec-b9e2-c6167609de7b
-  - name: defaultName_92
-    port: 8080
-    server: 104.21.94.168
-    type: vless
-    network: ws
-    udp: true
-    uuid: 40e18e7a-b328-4b85-a452-85de24e60f0a
-  - name: defaultName_93
-    port: 443
-    server: 104.16.60.8
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    alpn:
-      - http/1.1
-    uuid: 0de65b37-d62f-11ee-aaa8-00505603e70d
-    client-fingerprint: chrome
-  - name: defaultName_94
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_95
-    port: 443
-    server: 151.101.2.133
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: ergwork.web.unc.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn,telegram-@Sobi_Vpn?ed=2048
-      headers:
-        host: sobip.ir
-    uuid: 3fecfaf1-02c1-436d-83b2-d43ddd82fd59
-  - name: defaultName_96
-    port: 2095
-    server: 190.93.247.155
-    type: vless
-    network: ws
-    udp: true
-    uuid: 1f19c0e8-74b5-4cd9-cc59-a6e6d75af944
-  - name: defaultName_97
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_98
-    port: 443
-    server: 172.67.73.241
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_99
-    port: 443
-    server: 13.68.186.91
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_100
-    port: 443
-    server: 13.68.186.91
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_101
-    port: 443
-    server: 4.255.56.138
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_102
-    port: 443
-    server: 172.191.74.198
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_103
-    port: 443
-    server: 4.255.56.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_104
-    port: 8443
-    server: 40.123.42.160
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_105
-    port: 443
-    server: 74.249.233.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_106
-    port: 443
-    server: 74.249.233.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_107
-    port: 443
-    server: 74.249.233.213
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: edgetunnel-free.pages.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: edgetunnel-free.pages.dev
-    uuid: de44b044-8f90-4e18-b742-16591667ff96
-    client-fingerprint: randomized
-  - name: defaultName_108
-    port: 8880
-    server: 104.17.148.22
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-ArV2ray
-  - name: defaultName_109
-    port: 80
-    server: 151.101.2.216
-    type: vless
-    network: ws
-    udp: true
-    uuid: BLUEV2RAYNG-config-1851
-  - name: defaultName_110
-    port: 1624
-    server: 188.245.163.79
-    type: vless
-    network: tcp
-    udp: true
-    servername: wwww.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
-      short-id: 3a622700e73c6642
-    uuid: 24f65efb-4885-4e3c-b598-f70336ce8c63
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-  - name: defaultName_111
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_112
-    port: 443
-    server: 151.101.2.133
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: mio.splashthat.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
-      headers:
-        host: barkatc2.ir
-    uuid: ea52c459-86ac-4707-8062-564ca031ae43
-  - name: defaultName_113
-    port: 443
-    server: 2a04:4e42:7d::740
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: cinematicket.org
-    uuid: Bia--ZEDMODEON
-  - name: defaultName_114
-    port: 443
-    server: 104.26.11.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-gb-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-gb-1.brocdn.com
-    uuid: 18cd7434-d639-11ee-aaa8-00505603e70d
-  - name: defaultName_115
-    port: 443
-    server: 45.63.117.50
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: cpanel3.sassanidempire.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws
-      headers:
-        host: cpanel3.sassanidempire.com
-    uuid: fcf99985-147b-4c71-c3f2-f448e5a379f1
-    client-fingerprint: chrome
-  - name: defaultName_116
-    port: 2095
-    server: 185.146.173.185
-    type: vless
-    network: httpupgrade
-    udp: true
-    uuid: fce9ae11-0fd2-4989-b1d5-c6e1e1d5e2fd
-  - name: defaultName_117
-    port: 443
-    server: 2a04:4e42:7d::740
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: gisheh7.ir
-    uuid: tel--ZEDMODEON
-  - name: defaultName_118
-    port: 38971
-    server: 2a01:4f8:c17:1cd7::1
-    type: vless
-    network: tcp
-    udp: true
-    uuid: TELEGRAM-ServerNett
-  - name: defaultName_119
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: telegram-id-ArV2ray
-  - name: defaultName_120
-    port: 443
-    server: 104.26.10.137
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: st-fr-1.brocdn.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /websocket
-      headers:
-        host: st-fr-1.brocdn.com
-    uuid: 3894cbc1-e06a-11ee-95c9-00505603e70d
+    obfs-password: 13f7ba5f
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2323,126 +469,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - defaultName_19
-      - defaultName_20
-      - defaultName_21
-      - defaultName_22
-      - defaultName_23
-      - defaultName_24
-      - defaultName_25
-      - defaultName_26
-      - defaultName_27
-      - defaultName_28
-      - defaultName_29
-      - defaultName_30
-      - defaultName_31
-      - defaultName_32
-      - defaultName_33
-      - defaultName_34
-      - defaultName_35
-      - defaultName_36
-      - defaultName_37
-      - defaultName_38
-      - defaultName_39
-      - defaultName_40
-      - defaultName_41
-      - defaultName_42
-      - defaultName_43
-      - defaultName_44
-      - defaultName_45
-      - defaultName_46
-      - defaultName_47
-      - defaultName_48
-      - defaultName_49
-      - defaultName_50
-      - defaultName_51
-      - defaultName_52
-      - defaultName_53
-      - defaultName_54
-      - defaultName_55
-      - defaultName_56
-      - defaultName_57
-      - defaultName_58
-      - defaultName_59
-      - defaultName_60
-      - defaultName_61
-      - defaultName_62
-      - defaultName_63
-      - defaultName_64
-      - defaultName_65
-      - defaultName_66
-      - defaultName_67
-      - defaultName_68
-      - defaultName_69
-      - defaultName_70
-      - defaultName_71
-      - defaultName_72
-      - defaultName_73
-      - defaultName_74
-      - defaultName_75
-      - defaultName_76
-      - defaultName_77
-      - defaultName_78
-      - defaultName_79
-      - defaultName_80
-      - defaultName_81
-      - defaultName_82
-      - defaultName_83
-      - defaultName_84
-      - defaultName_85
-      - defaultName_86
-      - defaultName_87
-      - defaultName_88
-      - defaultName_89
-      - defaultName_90
-      - defaultName_91
-      - defaultName_92
-      - defaultName_93
-      - defaultName_94
-      - defaultName_95
-      - defaultName_96
-      - defaultName_97
-      - defaultName_98
-      - defaultName_99
-      - defaultName_100
-      - defaultName_101
-      - defaultName_102
-      - defaultName_103
-      - defaultName_104
-      - defaultName_105
-      - defaultName_106
-      - defaultName_107
-      - defaultName_108
-      - defaultName_109
-      - defaultName_110
-      - defaultName_111
-      - defaultName_112
-      - defaultName_113
-      - defaultName_114
-      - defaultName_115
-      - defaultName_116
-      - defaultName_117
-      - defaultName_118
-      - defaultName_119
-      - defaultName_120
+      - 🇺🇸_1
+      - 🇦🇹_1
+      - 🇦🇹_2
+      - 🇺🇸_2
+      - 🇦🇹_3
+      - 🇺🇸_3
+      - 🇺🇸_4
+      - 🇺🇸_5
+      - 🇺🇸_6
+      - 🇦🇹_4
+      - 🇺🇸_7
+      - 🇺🇸_8
+      - 🇺🇸_9
+      - 🇺🇸_10
+      - 🇺🇸_11
+      - 🇺🇸_12
+      - 🇺🇸_13
+      - 🇺🇸_14
+      - 🇺🇸_15
+      - 🇦🇹_5
+      - 🇺🇸 _1
+      - 🇺🇸 _2
+      - 🇸🇪
+      - 🇺🇸 _3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
