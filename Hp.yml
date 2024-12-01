@@ -46,6 +46,687 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: Telegram+:+@tv2rayrr🐎_1
+    port: 80
+    server: 52.32.21.48
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_2
+    port: 80
+    server: 52.43.13.178
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_3
+    port: 80
+    server: 44.235.79.52
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_4
+    port: 80
+    server: 54.149.65.113
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_5
+    port: 80
+    server: 52.27.173.10
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: 8ad9fe06-8104-4cb2-e436-3318dd6628ad
+  - name: Telegram+:+@tv2rayrr🐎_6
+    port: 2052
+    server: ns.cloudflare.com
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: 98c16832-eded-4ebf-ab47-5729ef974b77
+  - name: Telegram+:+@tv2rayrr🐎_7
+    port: 443
+    server: purina.rs
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: purina.rs
+    skip-cert-verify: true
+    ws-opts:
+      path: ws/community/gr?ed=2048
+      headers:
+        host: ammar.ir
+    alpn:
+      - h2,http/1.1
+    uuid: e84e5d0-f69c-454a-a61b-bceae745e14f
+    client-fingerprint: chrome
+  - name: Telegram+:+@tv2rayrr🐎_8
+    port: 443
+    server: live.wkrq.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: live.wkrq.com
+    skip-cert-verify: true
+    ws-opts:
+      path: ws/?ed=2048
+      headers:
+        host: hvcr4d5767yhub.com
+    uuid: 2647ef9-e7b2-45ce-b70a-145a550a8759
+  - name: Telegram+:+@tv2rayrr🐎_9
+    port: 443
+    server: fr5-speedtest.tools.gcore.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gcore.lu
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: 9.gcr.dns04.com
+    uuid: f200126-5865-4980-b6dd-2211dbaadf10
+    client-fingerprint: chrome
+  - name: Telegram+:+@tv2rayrr🐎_10
+    port: 8443
+    server: 172.66.46.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: trojanyu.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram@V2ray_Alpha/?ed=2560
+      headers:
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1ef5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: Telegram+:+@tv2rayrr🐎_11
+    port: 443
+    server: 172.66.46.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: trojanyu.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560
+      headers:
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1ef5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: Telegram+:+@tv2rayrr🐎_12
+    port: 90
+    server: svnteam-joinchannel.misvn.ir
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam----@SvnTeam?ed=2048
+      headers:
+        host: Svnteam.SvnTeam.SvnTeam.First.ir
+    uuid: SVNTEA
+  - name: "Telegram+:+@tv2rayrr🐎v2ray:"
+    port: 8443
+    server: 172.66.46.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: trojanyu.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1aeff5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_1
+    port: 8880
+    server: zula.ir
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: e952fc48-1f3d-47b4-b7bf-1149e0b4dbe6
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_2
+    port: 8880
+    server: 104.17.207.36
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: e952fc48-1f3d-47b4-b7bf-1149e0b4dbe6
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_3
+    port: 8880
+    server: 172.66.47.146
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: e952fc48-1f3d-47b4-b7bf-1149e0b4dbe6
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_4
+    port: 80
+    server: 172.66.47.146
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560
+      headers:
+        host: www.speedtest.net.soft98.ir.nobitex.com.vigilantecollection.com
+    uuid: 6d62f776-5985-4d5f-8799-9f95c5e375cd
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_5
+    port: 80
+    server: 104.17.97.5
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560
+      headers:
+        host: www.speedtest.net.soft98.ir.nobitex.com.vigilantecollection.com
+    uuid: 6d62f776-5985-4d5f-8799-9f95c5e375cd
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_6
+    port: 80
+    server: www.speedtest.net
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560
+      headers:
+        host: www.speedtest.net.soft98.ir.nobitex.com.vigilantecollection.com
+    uuid: 6d62f776-5985-4d5f-8799-9f95c5e375cd
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_7
+    port: 443
+    server: 140.248.170.223
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: bia-daily-configs.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Configs,@Daily_Configs,@Daily_Configs
+      headers:
+        host: bia-daily-configs.com
+    alpn:
+      - h3,h2
+    uuid: 93e69143-c1db-446f-a07c-c49642924fdc
+    client-fingerprint: random
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_8
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Daily_Configs,@Daily_Configs,@Daily_Configs
+      headers:
+        host: bia-daily-configs.com
+    uuid: 93e69143-c1db-446f-a07c-c49642924fdc
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_9
+    port: 443
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ELiV2-0.COM
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-0.COM
+    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+    client-fingerprint: qq
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_10
+    port: 80
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-0.COM
+    uuid: 8cecedef-f088-5419-913d-c4c8b24c651d
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_11
+    port: 443
+    server: 199.232.79.51
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ELiV2-ELENA.COM
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-ELENA.COM
+    uuid: cfe1723e-887f-5184-a2de-3d23cc1ac09a
+    client-fingerprint: qq
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_12
+    port: 80
+    server: 140.248.139.207
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ELiV2-ELENA.COM
+    uuid: cfe1723e-887f-5184-a2de-3d23cc1ac09a
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_13
+    port: 80
+    server: NUFiLTER.fastly80.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+      headers:
+        host: api.nhl186.ir
+    uuid: TELEGRAM-NUFiLTER
+  - name: Telegram+:+@tv2rayrr🎲🔥❤️_14
+    port: 80
+    server: NUFiLTER.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+      headers:
+        host: api.nhl80.ir
+    uuid: TELEGRAM-NUFiLTER
+  - name: 🍋15@oneclickvpnkeys
+    port: 443
+    server: fr5-speedtest.tools.gcore.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: gcore.lu
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: 9.gcr.dns04.com
+    uuid: f2004126-5865-4980-b6dd-2211dbaadf10
+    client-fingerprint: chrome
+  - name: 🍋14@oneclickvpnkeys
+    port: 11965
+    server: 59.29.116.20
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: global2.ccdd.site
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: global2.ccdd.site
+    uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
+  - name: 🍋5@oneclickvpnkeys
+    port: 8080
+    server: 37.230.62.172
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: a.mifeng.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: a.mifeng.us.kg
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  - name: 🍋13@oneclickvpnkeys
+    port: 80
+    server: 185.146.173.58
+    type: vless
+    network: ws
+    udp: true
+    uuid: f151bde4-6981-4ad9-bd01-dd34ad792a3e
+  - name: 🍋6@oneclickvpnkeys
+    port: 443
+    server: 188.42.145.140
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: g1.youyuan.us.kg
+    skip-cert-verify: true
+    ws-opts:
+      path: /?proxyip=proxyip.multacom.fxxk.dedyn.io
+      headers:
+        host: g1.youyuan.us.kg
+    uuid: f3fcb0be-c785-4791-bd88-335dd20f0c1e
+    client-fingerprint: chrome
+  - name: 🍋7@oneclickvpnkeys
+    port: 80
+    server: unlimiteddev.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: 8b5cbe33-cc76-4fcf-eeb6-1ee544e767d2
+  - name: 🍋8@oneclickvpnkeys
+    port: 80
+    server: unlimiteddev.fastly80-2.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: 8b5cbe33-cc76-4fcf-eeb6-1ee544e767d2
+  - name: 🍋9@oneclickvpnkeys
+    port: 8080
+    server: 104.17.234.128
+    type: vless
+    network: ws
+    udp: true
+    uuid: ac954fc8-fdf6-4894-b01a-7ba7ec46f312
+  - name: 🍋11@oneclickvpnkeys
+    port: 443
+    server: 40.172.92.89
+    type: ss
+    udp: true
+    password: u17T3BvpYaaiuW2c
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋10@oneclickvpnkeys
+    port: 443
+    server: 16.24.76.210
+    type: ss
+    udp: true
+    password: Bog0ELmMM9DSxDdQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋12@oneclickvpnkeys
+    port: 24064
+    server: 150.241.68.171
+    type: ss
+    udp: true
+    password: LcEDAhRkNrjwB16SvN5d7fAmpswtGTAexB1qdzmeFrg=
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋4@oneclickvpnkeys
+    port: 443
+    server: 212.102.53.198
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🍋16@oneclickvpnkeys
+    port: 57263
+    server: 150.241.95.62
+    type: ss
+    udp: true
+    password: As=Qe0JVvH
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋3@oneclickvpnkeys
+    port: 80
+    server: svnteam-joinchannel.misvn.ir
+    type: vless
+    network: ws
+    udp: true
+    uuid: SVNTEAM
+  - name: 🍋1@oneclickvpnkeys
+    port: 25543
+    server: 150.241.101.222
+    type: ss
+    udp: true
+    password: z97LYaTmlqXNLzSozfMfGu
+    cipher: chacha20-ietf-poly1305
+  - name: 🍋2@oneclickvpnkeys
+    port: 29742
+    server: 150.241.101.222
+    type: vless
+    network: tcp
+    udp: true
+    servername: google.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: fPtoPIDDJIW4pSY8TAFM0BKPA0ELOkX7ssc3i23SXlE
+      short-id: "75813316"
+    uuid: fb359e90-d32a-4a92-a625-2a2cc469bba4
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+  - name: 🍎11@oneclickvpnkeys
+    port: 443
+    server: beyonddbc.sbs
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: beyonddbc.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: beyonddbc.sbs
+    cipher: auto
+    uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+    alterId: 0
+  - name: 🍎10@oneclickvpnkeys
+    port: 21771
+    server: 150.241.102.95
+    type: ss
+    udp: true
+    password: yuvTE1Pkp9RlDUtm1JzfJn
+    cipher: chacha20-ietf-poly1305
+  - name: 🍎14@oneclickvpnkeys
+    port: 8080
+    server: 172.67.64.120
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+      headers:
+        host: 30218215898937032484083613431792.v2line.net
+    cipher: auto
+    uuid: b952c094-b477-4a5e-a4d7-b62d6d1675af
+    alterId: 0
+  - name: 🍒5@oneclickvpnkeys
+    port: 443
+    server: beyonddsz.cfd
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: beyonddsz.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: beyonddsz.cfd
+    cipher: auto
+    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+    alterId: 0
+  - name: ⚱️8@oneclickvpnkeys
+    port: 443
+    server: 45.135.235.111
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: fq521.6789.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: juzi
+      headers:
+        host: fq521.6789.cloudns.be
+    uuid: 775213ac-3976-439a-8977-3277c0e4735d
+    client-fingerprint: chrome
+  - name: 🍓52@oneclickvpnkeys
+    port: 443
+    server: 94.247.142.241
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: fq521.6789.cloudns.be
+    skip-cert-verify: true
+    ws-opts:
+      path: twitterfreecodessecurity=tls
+      headers:
+        host: fq521.6789.cloudns.be
+    uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  - name: 🍉23@oneclickvpnkeys
+    port: 8443
+    server: 172.66.46.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: trojanyu.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1eff5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: 🍉22@oneclickvpnkeys
+    port: 80
+    server: 5.75.202.205
+    type: vless
+    network: ws
+    udp: true
+    uuid: a35017af-d228-44bd-885c-e5951ce09df6
+  - name: 🍉88@oneclickvpnkeys
+    port: 443
+    server: 172.66.46.224
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: trojanyu.pages.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /TELEGRAM-MARAMBASHI_MARAMBASHI/?ed=2560
+      headers:
+        host: trojanyu.pages.dev
+    alpn:
+      - http/1.1
+    uuid: 1a1eff5f-97b8-4a4e-910d-6415441b371a
+    client-fingerprint: randomized
+  - name: 🍎38@oneclickvpnkeys
+    port: 433
+    server: 77.73.67.216
+    type: vless
+    network: tcp
+    udp: true
+    servername: spb.hola-git.ru
+    skip-cert-verify: true
+    reality-opts:
+      public-key: LI5VU2h1LyAVbB-kDvCFDMmS7cRRUKQR8CxSRYt-LWM
+      short-id: 822c85ff
+    uuid: yZWfBW0ouFrbTIkZcsAH
+    flow: xtls-rprx-vision
+    client-fingerprint: random
+  - name: 🍎29@oneclickvpnkeys
+    port: 443
+    server: 23.150.248.153
+    type: trojan
+    network: ws
+    udp: true
+    sni: jobscareerforstudent.com
+    password: 984e400bf5d541b7b0815913fe0c432a
+    skip-cert-verify: true
+    ws-opts:
+      path: /6b777a91
+      headers:
+        host: jobscareerforstudent.com
+    alpn:
+      - http/1.1
+    client-fingerprint: chrome
+  - name: 🍎44@oneclickvpnkeys
+    port: 2060
+    server: 185.247.184.147
+    type: vless
+    network: grpc
+    udp: true
+    servername: dash.cloudflare.com
+    skip-cert-verify: true
+    grpc-opts: {}
+    reality-opts:
+      public-key: 1k5jM49Bx5DEAfS5Vpqz93t2XOXk-kwXl0V5Q9jn_WY
+      short-id: f77e5398
+    alpn:
+      - h2,http/1.1
+    uuid: 4a60a8e0-b51d-41ae-8500-1b0b6724c6e6
+    client-fingerprint: chrome
+  - name: 🍎77@oneclickvpnkeys
+    port: 443
+    server: 45.145.167.103
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: indiavideo.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: indiavideo.sbs
+    cipher: auto
+    uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+    alterId: 0
+  - name: 🍎78@oneclickvpnkeys
+    port: 443
+    server: indiavideo.sbs
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: indiavideo.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: indiavideo.sbs
+    cipher: auto
+    uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162
+    alterId: 0
   - name: defaultName_1
     port: 443
     server: 4.255.56.138
@@ -1725,6 +2406,63 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -1881,6 +2619,63 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2037,6 +2832,63 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2192,6 +3044,63 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2347,6 +3256,63 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2502,6 +3468,63 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
@@ -2674,6 +3697,63 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Telegram+:+@tv2rayrr🐎_1
+      - Telegram+:+@tv2rayrr🐎_2
+      - Telegram+:+@tv2rayrr🐎_3
+      - Telegram+:+@tv2rayrr🐎_4
+      - Telegram+:+@tv2rayrr🐎_5
+      - Telegram+:+@tv2rayrr🐎_6
+      - Telegram+:+@tv2rayrr🐎_7
+      - Telegram+:+@tv2rayrr🐎_8
+      - Telegram+:+@tv2rayrr🐎_9
+      - Telegram+:+@tv2rayrr🐎_10
+      - Telegram+:+@tv2rayrr🐎_11
+      - Telegram+:+@tv2rayrr🐎_12
+      - "Telegram+:+@tv2rayrr🐎v2ray:"
+      - Telegram+:+@tv2rayrr🎲🔥❤️_1
+      - Telegram+:+@tv2rayrr🎲🔥❤️_2
+      - Telegram+:+@tv2rayrr🎲🔥❤️_3
+      - Telegram+:+@tv2rayrr🎲🔥❤️_4
+      - Telegram+:+@tv2rayrr🎲🔥❤️_5
+      - Telegram+:+@tv2rayrr🎲🔥❤️_6
+      - Telegram+:+@tv2rayrr🎲🔥❤️_7
+      - Telegram+:+@tv2rayrr🎲🔥❤️_8
+      - Telegram+:+@tv2rayrr🎲🔥❤️_9
+      - Telegram+:+@tv2rayrr🎲🔥❤️_10
+      - Telegram+:+@tv2rayrr🎲🔥❤️_11
+      - Telegram+:+@tv2rayrr🎲🔥❤️_12
+      - Telegram+:+@tv2rayrr🎲🔥❤️_13
+      - Telegram+:+@tv2rayrr🎲🔥❤️_14
+      - 🍋15@oneclickvpnkeys
+      - 🍋14@oneclickvpnkeys
+      - 🍋5@oneclickvpnkeys
+      - 🍋13@oneclickvpnkeys
+      - 🍋6@oneclickvpnkeys
+      - 🍋7@oneclickvpnkeys
+      - 🍋8@oneclickvpnkeys
+      - 🍋9@oneclickvpnkeys
+      - 🍋11@oneclickvpnkeys
+      - 🍋10@oneclickvpnkeys
+      - 🍋12@oneclickvpnkeys
+      - 🍋4@oneclickvpnkeys
+      - 🍋16@oneclickvpnkeys
+      - 🍋3@oneclickvpnkeys
+      - 🍋1@oneclickvpnkeys
+      - 🍋2@oneclickvpnkeys
+      - 🍎11@oneclickvpnkeys
+      - 🍎10@oneclickvpnkeys
+      - 🍎14@oneclickvpnkeys
+      - 🍒5@oneclickvpnkeys
+      - ⚱️8@oneclickvpnkeys
+      - 🍓52@oneclickvpnkeys
+      - 🍉23@oneclickvpnkeys
+      - 🍉22@oneclickvpnkeys
+      - 🍉88@oneclickvpnkeys
+      - 🍎38@oneclickvpnkeys
+      - 🍎29@oneclickvpnkeys
+      - 🍎44@oneclickvpnkeys
+      - 🍎77@oneclickvpnkeys
+      - 🍎78@oneclickvpnkeys
       - defaultName_1
       - defaultName_2
       - defaultName_3
