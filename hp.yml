@@ -7569,10 +7569,7 @@ rules:
   - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
   - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
-  - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
- ],
-    "rule-providers": {
+      "rule-providers": {
         "private": {
             "type": "http",
             "format": "yaml",
@@ -7685,4 +7682,5 @@ rules:
         "RULE-SET,ads,REJECT",
         "AND,((NETWORK,udp),(DST-PORT,443)),REJECT",
         "MATCH,✅ Selector"
-    ],
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
