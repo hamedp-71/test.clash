@@ -2,6 +2,120 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=5368709120; download=117037858816; total=955630223360; expire=1762677732
 #profile-web-page-url: @hamedvpns
+ "rule-providers": {
+        "private": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml",
+            "path": "./ruleset/private.yaml",
+            "interval": 86400
+        },
+        "private-cidr": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml",
+            "path": "./ruleset/private-cidr.yaml",
+            "interval": 86400
+        },
+        "ir": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt",
+            "path": "./ruleset/ir.txt",
+            "interval": 86400
+        },
+        "ir-cidr": {
+            "type": "http",
+            "format": "text",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt",
+            "path": "./ruleset/ir-cidr.txt",
+            "interval": 86400
+        },
+        "cn": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml",
+            "path": "./ruleset/cn.yaml",
+            "interval": 86400
+        },
+        "cn-cidr": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml",
+            "path": "./ruleset/cn-cidr.yaml",
+            "interval": 86400
+        },
+        "ru": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ru.yaml",
+            "path": "./ruleset/ru.yaml",
+            "interval": 86400
+        },
+        "ru-cidr": {
+            "type": "http",
+            "format": "yaml",
+            "behavior": "ipcidr",
+            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.yaml",
+            "path": "./ruleset/ru-cidr.yaml",
+            "interval": 86400
+        },
+        "malware": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt",
+            "path": "./ruleset/malware.txt",
+            "interval": 86400
+        },
+        "phishing": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt",
+            "path": "./ruleset/phishing.txt",
+            "interval": 86400
+        },
+        "cryptominers": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt",
+            "path": "./ruleset/cryptominers.txt",
+            "interval": 86400
+        },
+        "ads": {
+            "type": "http",
+            "format": "text",
+            "behavior": "domain",
+            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt",
+            "path": "./ruleset/ads.txt",
+            "interval": 86400
+        }
+    },
+    "rules": [
+        "RULE-SET,private,DIRECT",
+        "RULE-SET,ir,DIRECT",
+        "RULE-SET,cn,DIRECT",
+        "RULE-SET,ru,DIRECT",
+        "RULE-SET,private-cidr,DIRECT,no-resolve",
+        "RULE-SET,ir-cidr,DIRECT",
+        "RULE-SET,cn-cidr,DIRECT",
+        "RULE-SET,ru-cidr,DIRECT",
+        "RULE-SET,malware,REJECT",
+        "RULE-SET,phishing,REJECT",
+        "RULE-SET,cryptominers,REJECT",
+        "RULE-SET,ads,REJECT",
+        "AND,((NETWORK,udp),(DST-PORT,443)),REJECT",
+        "MATCH,✅ Selector"
+    ],
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -4181,126 +4295,6 @@ proxy-groups:
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
- "rule-providers": {
-        "private": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.yaml",
-            "path": "./ruleset/private.yaml",
-            "interval": 86400
-        },
-        "private-cidr": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.yaml",
-            "path": "./ruleset/private-cidr.yaml",
-            "interval": 86400
-        },
-        "ir": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt",
-            "path": "./ruleset/ir.txt",
-            "interval": 86400
-        },
-        "ir-cidr": {
-            "type": "http",
-            "format": "text",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt",
-            "path": "./ruleset/ir-cidr.txt",
-            "interval": 86400
-        },
-        "cn": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.yaml",
-            "path": "./ruleset/cn.yaml",
-            "interval": 86400
-        },
-        "cn-cidr": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.yaml",
-            "path": "./ruleset/cn-cidr.yaml",
-            "interval": 86400
-        },
-        "ru": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ru.yaml",
-            "path": "./ruleset/ru.yaml",
-            "interval": 86400
-        },
-        "ru-cidr": {
-            "type": "http",
-            "format": "yaml",
-            "behavior": "ipcidr",
-            "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/ru.yaml",
-            "path": "./ruleset/ru-cidr.yaml",
-            "interval": 86400
-        },
-        "malware": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/malware.txt",
-            "path": "./ruleset/malware.txt",
-            "interval": 86400
-        },
-        "phishing": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/phishing.txt",
-            "path": "./ruleset/phishing.txt",
-            "interval": 86400
-        },
-        "cryptominers": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/cryptominers.txt",
-            "path": "./ruleset/cryptominers.txt",
-            "interval": 86400
-        },
-        "ads": {
-            "type": "http",
-            "format": "text",
-            "behavior": "domain",
-            "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ads.txt",
-            "path": "./ruleset/ads.txt",
-            "interval": 86400
-        }
-    },
-    "rules": [
-        "RULE-SET,private,DIRECT",
-        "RULE-SET,ir,DIRECT",
-        "RULE-SET,cn,DIRECT",
-        "RULE-SET,ru,DIRECT",
-        "RULE-SET,private-cidr,DIRECT,no-resolve",
-        "RULE-SET,ir-cidr,DIRECT",
-        "RULE-SET,cn-cidr,DIRECT",
-        "RULE-SET,ru-cidr,DIRECT",
-        "RULE-SET,malware,REJECT",
-        "RULE-SET,phishing,REJECT",
-        "RULE-SET,cryptominers,REJECT",
-        "RULE-SET,ads,REJECT",
-        "AND,((NETWORK,udp),(DST-PORT,443)),REJECT",
-        "MATCH,✅ Selector"
-    ],
-    "ntp": {
-        "enable": true,
-        "server": "time.apple.com",
-        "port": 123,
-        "interval": 30
-    }
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
