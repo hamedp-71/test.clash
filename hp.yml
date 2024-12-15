@@ -2,7 +2,7 @@
 //profile-update-interval: 1
 //subscription-userinfo: upload=5368709120; download=117037858816; total=955630223360; expire=1762677732
 #profile-web-page-url: @hamedvpns
- "rule-providers": {
+"rule-providers": {
         "private": {
             "type": "http",
             "format": "yaml",
@@ -115,7 +115,6 @@
         "RULE-SET,ads,REJECT",
         "AND,((NETWORK,udp),(DST-PORT,443)),REJECT",
         "MATCH,✅ Selector"
-    ],
 mixed-port: 7890
 allow-lan: false
 mode: rule
