@@ -113,8 +113,6 @@
         "RULE-SET,phishing,REJECT",
         "RULE-SET,cryptominers,REJECT",
         "RULE-SET,ads,REJECT",
-        "AND,((NETWORK,udp),(DST-PORT,443)),REJECT",
-        "MATCH,✅ Selector"
 mixed-port: 7890
 allow-lan: false
 mode: rule
