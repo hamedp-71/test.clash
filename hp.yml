@@ -49,7 +49,7 @@
             "any:53"
         ],
         "mtu": 1316
-    },
+    ],
     "sniffer": {
         "enable": true,
         "force-dns-mapping": true,
